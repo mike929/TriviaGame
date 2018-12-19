@@ -5,7 +5,7 @@ var question0 =
     answer: "Germany",
     choices: ["Canada", "Spain", "Turkey", "Germany"],
     correctAnswer: 3,
-    correctGif: "assets/images/giphy1.gif"
+    correctGif: "assets/images/german_giphy.gif"
 };
 
 var question1 = 
@@ -14,7 +14,7 @@ var question1 =
     answer: "Honda",
     choices: ["Toyota", "Honda", "Sabaru", "Nissan"],
     correctAnswer: 1,
-    correctGif: "assets/images/giphy2.gif"
+    correctGif: "assets/images/honda_giphy.gif"
 };
 
 var question2 = 
@@ -23,7 +23,7 @@ var question2 =
     answer: "Acura",
     choices: ["Infinity", "Lexus", "Acura", "Hyundai"],
     correctAnswer: 2,
-    correctGif: "assets/images/giphy3.gif"
+    correctGif: "assets/images/acura_giphy.gif"
 };
 
 var question3 = 
@@ -32,7 +32,7 @@ var question3 =
     answer: "9.7 million",
     choices: ["9.7 million", "2.5 million", "10 million", "1 million"],
     correctAnswer: 0,
-    correctGif: "assets/images/giphy4.gif"
+    correctGif: "assets/images/ford_giphy.gif"
 };
 
 var question4 = 
@@ -41,7 +41,7 @@ var question4 =
     answer: "BMW",
     choices: ["BMW", "Audi", "Mercedes-Benz", "Toyota"],
     correctAnswer: 0,
-    correctGif: "assets/images/giphy5.gif"
+    correctGif: "assets/images/bmw_giphy.gif"
 };
 
 var question5 = 
@@ -50,7 +50,7 @@ var question5 =
     answer: "Bavarian Motor Works",
     choices: ["Bold Magnificent Works", "Bavarian Motor Works", "Beautiful Motor Works", "Basic Math Works"],
     correctAnswer: 1,
-    correctGif: "assets/images/giphy6.gif"
+    correctGif: "assets/images/bmw_giphy.gif"
 };
 
 
@@ -60,7 +60,7 @@ var question6 =
         answer: "Honda",
         choices: ["BMW", "Honda", "Dodge", "Ford"],
         correctAnswer: 3,
-        correctGif: "assets/images/giphy7.gif"
+        correctGif: "assets/images/honday_giphy.gif"
     };
 
 
