@@ -32,7 +32,7 @@ var question3 =
     answer: "9.7 million",
     choices: ["9.7 million", "2.5 million", "10 million", "1 million"],
     correctAnswer: 0,
-    correctGif: "assets/images/ford_giphy.gif"
+    correctGif: "assets/images/japan_giphy.gif"
 };
 
 var question4 = 
@@ -57,10 +57,10 @@ var question5 =
 var question6 = 
     {
         question: "Which company is the 2nd largest family owned company in the world?",
-        answer: "Honda",
+        answer: "Ford",
         choices: ["BMW", "Honda", "Dodge", "Ford"],
         correctAnswer: 3,
-        correctGif: "assets/images/honday_giphy.gif"
+        correctGif: "assets/images/ford_giphy.gif"
     };
 
 
