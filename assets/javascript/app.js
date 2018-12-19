@@ -279,7 +279,7 @@ if (indexQuestion < QuestionsArray.length)
     else
     {
     
-        $('#quizMessage').html("<h2><p>Wrong! <br> The correct answer was: <br>" + QuestionsArray[indexQuestion].answer + "</p></h2>");
+        $('#quizMessage').html("<h2><p><b>Wrong! <br> The correct answer was: <br>" + QuestionsArray[indexQuestion].answer + "</b></p></h2>");
         gameScores.answeredWrong ++;
         console.log("wrong answer " + gameScores.answeredWrong);
         audio = new Audio("assets/Aww Sympathy.mp3");
