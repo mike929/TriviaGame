@@ -1,77 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Trivia Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
 
 </head>
+
 <body>
 
-    <img id="Backgrd" src="assets/images/car_background.png">
-<h1>Trivia Game</h1>
+  <img id="Backgrd" src="assets/images/car_background.png">
+  <h1>Trivia Game</h1>
 
-<button type="start" id="startme">Start</button>
+  <button type="start" id="startme">Start</button>
 
-<div class="quizContainer">
-  
-     
-
-        <div id="question"></div>
-
-        <div id="timerDisplay">Timer Countdown</div>
-
-        <div class="row">
-          <button type="button" class="btn btn-primary btn-lg" id="button0" data-value=0>Button0</button>
-        </div>
-        <div class="row">
-          <button type="button" class="btn btn-primary btn-lg" id="button1" data-value=1>Button1</button>
-        </div>
-        <div class="row">
-          <button type="button" class="btn btn-primary btn-lg" id="button2" data-value=2>Button2</button>
-        </div>
-        <div class="row">
-          <button type="button" class="btn btn-primary btn-lg" id="button3" data-value=3>Button3</button>
-        </div>
-
-    </div>     
-
-       
-
-        <div id="quizMessage"></div>
-
-        <div id="quizGif"></div>
-
-        <div id="score"></div>
-
-        <div class="row">
-          <button type="reset" class="resetme" id="reset" value=reset>Reset Game</button>
-          
-       
-        <br>
-
-
-   
-</div>
-  
+  <div class="quizContainer">
 
 
 
+    <div id="question"></div>
+
+    <div id="timerDisplay">Timer Countdown</div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <button type="button" class="btn btn-primary btn-lg" id="button0" data-value=0>Button0</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <button type="button" class="btn btn-primary btn-lg" id="button1" data-value=1>Button1</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <button type="button" class="btn btn-primary btn-lg" id="button2" data-value=2>Button2</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <button type="button" class="btn btn-primary btn-lg" id="button3" data-value=3>Button3</button>
+      </div>
+
+    </div>
 
 
 
+    <div id="quizMessage"></div>
 
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="/assets/javascript/app.js"></script>
+    <div id="quizGif"></div>
+
+    <div id="score"></div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <button type="reset" class="resetme" id="reset" value=reset>Reset Game</button>
+      </div>
+
+
+      <br>
+
+
+
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/app.js"></script>
 
 </body>
+
 </html>
